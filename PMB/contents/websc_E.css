@@ -1,0 +1,271 @@
+/* Style sheet for digital contents (English) */
+/* Last modified 2007.4.16 */
+
+
+/* --------------- */
+/* Basic Paragraph */
+/* --------------- */
+
+BODY	{
+	font-family :	Sans-Serif;
+	font-size :	100%
+	background-color :	#FFFFFF;
+	}
+
+P	{
+	font-size :	100%;
+	line-height :	120%;
+	color :	#000000;
+	margin : 0px 0px 0px 0px;
+	}
+
+
+/* -------------- */
+/* Anchor's color */
+/* -------------- */
+
+A:link	{color:#0000FF}
+A:visited	{color:#800080}
+
+
+/* --------------- */
+/* Style Container */
+/* --------------- */
+
+
+DIV.PAGE	{
+	font-size :	95%;
+	padding :	0px 20px 0px 25px;
+	margin-top :	28px;
+	}
+DIV.RSLT	{
+	font-size :	95%;
+	line-height :	115%;
+	font-weight :	normal;
+	color :	#000000;
+	margin :	3px 0px 5px 0px;
+	}
+DIV.TS	{
+	font-size :	85%;
+	line-height :	115%;
+	font-weight :	normal;
+	color :	#000000;
+	margin :	4px 0px 0px 17px;
+	text-indent :	-18px;
+	}
+DIV.top_link	{
+	font-size :	85%;
+	font-weight :	normal;
+	color :	#666666;
+	margin :	-5px 0px 10px 0px;
+	text-align :	right;
+	}
+DIV.copyright	{
+	font-size :	80%;
+	font-weight :	normal;
+	color :	#666666;
+	margin :	10px 0px 0px 0px;	
+	text-align :	left;
+	}
+DIV.topicnumber	{
+	font-size :	80%;
+	font-weight :	normal;
+	color :	#666666;
+	margin :	10px 0px 0px 0px;
+	text-align :	right;
+	}
+DIV.EOF	{
+	padding-bottom : 38px;
+	}
+
+/* --------------- */
+/* Heading         */
+/* --------------- */
+
+H1	{
+	font-size :	105%;
+	line-height :	125%;
+	font-weight :	bold;
+	color :		#FFFFFF;
+	margin:	0px 0px 0px 0px;
+	background-color :	#00008B;
+	padding :	10px 10px 10px 25px;
+	}
+H2	{
+	font-size :	120%;
+	line-height :	normal;
+	font-weight :	bold;
+	color :	#00008B;
+	margin :	25px 0px 10px 0px;
+	padding-left :	5px;
+	border-top :	thick none #00008B;
+	border-right :	thick none #00008B;
+	border-bottom :	thick none #FFFFFF;
+	border-left :	15px solid #00008B;
+}
+H3	{
+	font-size :	102%;
+	line-height : normal;
+	font-weight : bold;
+	color :	#00008B;
+	margin :	20px 0px 5px 0px;
+	}
+
+H3.AFTH2	{
+	font-size :	102%;
+	line-height :	normal;
+	font-weight :	bold;
+	color :	#00008B;
+	margin :	15px 0px 5px 0px;
+	}
+
+H3.TS	{
+	font-size :	100%;
+	font-weight :	bold;
+	color :	#000000;
+	margin :	20px 0px 8px 0px;
+	background-color :	#EFF4FA;
+	padding :	6px 0px 6px 6px;
+	}
+
+H4	{
+	font-size :	100%;
+	line-height :	normal;
+	font-weight :	bold;
+	color :	#00008B;
+	margin :	20px 0px 4px 0px;
+	}
+
+H4.NOTE	{
+	font-size :	85%;
+	color :		#000000;
+	margin :	10px 0px 0px 2px;
+	}
+
+
+
+/* ------------------ */
+/* List and procedure */
+/* ------------------ */
+
+
+OL	{
+	margin-top :	12px;
+	margin-left :	25px;
+	}
+
+UL	{
+	margin-top :	4px;
+	margin-bottom :	5px;
+	margin-left :	15px;
+	}
+
+UL.TABLE	{
+	font-size :	98%;
+	margin :	1px 0px 1px 15px;
+	}
+
+LI	{
+	font-size :	95%;
+	line-height :	125%;
+	margin :	1px 0px 0px 0px;
+	}
+
+LI.PROC	{
+	font-size :	105%;
+	line-height :	115%;
+	font-weight :	bold;
+	color :		#0000cc;
+	margin :	10px 0px 0px 5px;
+	}
+
+LI.BLTM	{
+	font-size :	95%;
+	line-height :	125%;
+	color :		#000000;
+	margin :	2px 0px 0px 5px;
+	list-style-type :	disc;
+	}
+
+LI.BLTS	{
+	font-size :	85%;
+	line-height :	110%;
+	color :		#000000;
+	margin :	2px 0px 0px 5px;
+	list-style-type :	disc;
+	}
+
+
+/* ----------------------- */
+/* Tables and Cells */
+/* ----------------------- */
+
+TABLE	{
+	font-size :	100%;
+	line-height :	normal;
+	margin :	10px 10px 10px 0px;
+	padding :	5px;
+	cellpadding :	5px;
+	cellspacing :	0px;
+	border :	1px outset;
+	text-align :	left;
+	}
+TABLE.NAVI	{
+	font-size :	85%;
+	font-weight :	normal;
+	border-style : none;
+	margin :	5px 2px 2px -1px;
+	text-align :	left;
+	}
+TABLE.noframe	{
+	margin :	0px 0px 0px 0px;
+	padding :	0px 0px 0px 0px;
+	border-style : none;
+	border : 0px;
+	border-collapse:collapse;
+	}
+TH	{
+	font-weight :	bold;
+	padding :	5px;
+	border :	1px inset;
+	text-align :	center;
+	background-color :	#C0C0C0;
+	}
+
+TD	{
+	font-weight :	normal;
+	padding :	5px;
+	border :	1px inset;
+	}
+
+TD.NAVI	{
+	font-weight :	normal;
+	padding :	4px 2px 4px 5px;
+	border-style : none;
+	background-color :	#D3F5FF;
+	}
+TD.noframe	{
+	margin :	0px 0px 0px 0px;
+	padding :	0px 0px 0px 0px;
+	border-style : none;
+	}
+	
+dl	{
+	margin-top :	5px;
+	margin-bottom :	5px;
+	margin-left :	15px;
+	}
+	
+DT	{
+	font-size :	80%;
+	line-height :	125%;
+	margin-top: 15px;
+	}
+	
+DD	{
+	font-size :	80%;
+	line-height :	125%;
+	margin :	1px 0px 0px 0px;
+	margin-left: 20px;
+	}
+	
